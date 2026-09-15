@@ -1,0 +1,7 @@
+﻿# Exclude HTML from language statistics
+*.html linguist-vendored
+*.html linguist-detectable=false
+
+# Or explicitly mark languages
+*.go linguist-detectable=true
+*.py linguist-detectable=true

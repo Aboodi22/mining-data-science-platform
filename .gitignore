@@ -1,13 +1,10 @@
-﻿# Go
-*.db
+﻿*.db
 *.exe
 *.dll
 *.so
 *.dylib
 bin/
 obj/
-
-# Python
 __pycache__/
 *.pyc
 *.pyo
@@ -18,14 +15,8 @@ venv/
 *.egg-info/
 dist/
 build/
-
-# Data & outputs
 analytics-python/output/
 web-ui/charts/*.html
-
-# Ignore dashboard HTML (fixes language stats)
 web-ui/index.html
-
-# OS
 .DS_Store
 Thumbs.db
